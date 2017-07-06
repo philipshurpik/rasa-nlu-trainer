@@ -1,6 +1,6 @@
 // @flow
 import immutable from 'object-path-immutable'
-import testData from './testData.json'
+import testData from './demo-restaurants.json'
 import isOnline from '../utils/isOnline'
 import pick from 'lodash/pick'
 
@@ -36,7 +36,7 @@ function prepareExamples(examples = []) {
 }
 
 const INITIAL_STATE = {
-  filename: 'testData.json',
+  filename: 'demo-restaurants.json',
   originalSource: isOnline ? testData : null,
   examples: isOnline
     ? testData.rasa_nlu_data.common_examples.map(e => createExample(e))
