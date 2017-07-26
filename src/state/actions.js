@@ -1,7 +1,7 @@
 // @flow
 const ROOT_PATH = process.env.NODE_ENV === 'production'
   ? '/'
-  : 'http://localhost:4321/'
+  : 'https://localhost:4321/'
 
 export const RESET = 'RESET'
 export const reset = (): Object => ({
