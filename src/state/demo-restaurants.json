@@ -207,7 +207,7 @@
         "entities": []
       },
       {
-        "text": "Can I use the color to color my eyelashes, eyebrows and beard?  ",
+        "text": "Can I use the color to color my eyelashes, eyebrows and beard?",
         "intent": "eyelashes_eyebrows_beard",
         "entities": [
           {
@@ -223,9 +223,9 @@
             "entity": "no_hair"
           },
           {
-            "start": 55,
+            "start": 56,
             "end": 61,
-            "value": " beard",
+            "value": "beard",
             "entity": "no_hair"
           }
         ]
